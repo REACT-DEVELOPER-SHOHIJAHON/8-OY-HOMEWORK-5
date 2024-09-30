@@ -1,0 +1,47 @@
+#myChart {
+    width: 150px;
+    height: 150px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.transaction {
+    transition: transform 0.3s;
+}
+
+.transaction:hover {
+    transform: scale(1.02);
+}
+
+.transactionTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.transactionTable th,
+.transactionTable td {
+    padding: 15px;
+    text-align: left;
+}
+
+.transactionTable th {
+    background-color: #f3f4f6;
+    font-weight: bold;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+.transactionTable td {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.transactionExpense {
+    background-color: #dc2626c3;
+    color: white;
+}
+
+.transactionIncome {
+    background-color: #16a34ac3;
+    color: white;
+}
+
