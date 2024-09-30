@@ -28,14 +28,14 @@
 
             <div class="mt-6 flex gap-6 h-[250px]">
                 <div class="flex-1 shadow-lg rounded-2xl flex flex-col items-center justify-center p-4 bg-gray-100">
-                    <h3 class="text-3xl">Income</h3>
+                    <h3 class="text-3xl">INCOME</h3>
                     <strong class="text-5xl mt-2" id="displayIncomes">0</strong>
                     <button id="incomeBtn"
                         class="bg-teal-600 text-white py-3 px-8 rounded-full mt-4 hover:bg-teal-500 transition duration-300">Add
                         Income</button>
                 </div>
                 <div class="flex-1 shadow-lg rounded-2xl flex flex-col items-center justify-center p-4 bg-gray-100">
-                    <h3 class="text-3xl">Expense</h3>
+                    <h3 class="text-3xl">EXPENSE</h3>
                     <strong class="text-5xl mt-2" id="displayExpenses">0</strong>
                     <button id="expenseBtn"
                         class="bg-red-600 text-white py-3 px-8 rounded-full mt-4 hover:bg-red-500 transition duration-300">Add
@@ -65,20 +65,14 @@
         <table class="w-full  bg-gradient-to-r from-blue-600 to-blue-400 text-white shadow-lg ">
             <thead>
                 <tr class="bg-gradient-to-r from-blue-600 to-blue-400 text-white">
-                    <th class="px-4 py-2 text-left">Name</th>
-                    <th class="px-4 py-2 text-left">Amount</th>
-                    <th class="px-4 py-2 text-left">Type</th>
-                    <th class="px-4 py-2 text-left">Date</th>
+                    <th class="px-4 py-2 text-left">NAME</th>
+                    <th class="px-4 py-2 text-left">AMOUNT</th>
+                    <th class="px-4 py-2 text-left">TYPE</th>
+                    <th class="px-4 py-2 text-left">DATA</th>
                 </tr>
             </thead>
             <tbody id="transactionTableBody" class="text-gray-700"></tbody>
         </table>
-    </div>
-
-
-    <div
-        class="flex-1 max-w-[700px] flex justify-center items-center shadow-xl rounded-2xl p-20 gap-10 overflow-y-auto w-full bg-gradient-to-r ">
-        <canvas class="w-[700px] h-[500px]" id="myBarChart"></canvas>
     </div>
 
 
@@ -101,10 +95,6 @@
                 <select
                     class="border-2 border-gray-300 rounded-lg h-12 px-4 focus:outline-none focus:ring-2 focus:ring-pink-300">
                     <option value="" disabled selected>Select transaction type</option>
-                    <option value="bills-utilities">Bills & Utilities</option>
-                    <option value="food">Food</option>
-                    <option value="personal">Personal</option>
-                    <option value="healthcare">Healthcare</option>
                     <option value="education">Education</option>
                     <option value="transport">Transport</option>
                     <option value="investment">Investment</option>
@@ -124,5 +114,4 @@
 
 
 </body>
-
 </html>
